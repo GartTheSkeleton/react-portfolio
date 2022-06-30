@@ -1,5 +1,4 @@
 import React from "react";
-import Image from '../../assets/header-image-cheating.png';
 
 function Nav() {
 
@@ -10,10 +9,6 @@ function Nav() {
                 <div className="header-link">Comics</div>
                 <div className="header-link">About</div>
                 <div className="header-link">Contact</div>
-            </div>
-            
-            <div  className="header-wrapper" alt="">
-                <img src={Image} alt=""></img>
             </div>
         </nav>
     )
