@@ -7,6 +7,9 @@ function Header() {
             <h1>
                 Garrett Hobson
             </h1>
+            <p className="header-text">
+                Developer/Designer
+            </p>
         </div>
     )
 }

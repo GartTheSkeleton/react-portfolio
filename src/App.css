@@ -18,18 +18,20 @@
 }
 
 #avatar{
-  border: 5px solid black;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+  border: 5px solid #333333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
 
 .header{
   background-color: #333333;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
   padding-inline: 100%;
   padding-block: 2%;
+  padding-bottom: 20px;
 }
 
 h1 {
@@ -37,7 +39,7 @@ h1 {
 }
 
 h2 {
-  color: white;
+  color: #333333;
 }
 
 nav {
@@ -53,6 +55,37 @@ nav {
 .navbar {
   background-color: #333333;
   color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   width: 100%;
-  padding-bottom: 5px;
+  padding-bottom: 20px;
+}
+
+#about {
+  width: 50%;
+  padding-bottom: 20px;
+}
+
+.aboutText {
+  color: #333333;
+  font-size: 18px;
+  
+  padding: 5px;
+}
+
+.header-wrapper {
+  width: 100%;
+  background-image: url('./assets/header-image.png');
+  background-color: #b3a4d4;
+  background-size: auto;
+  background-repeat: repeat-x;
+}
+
+.header-text {
+  color: white
+}
+
+.header-link {
+  font-size: 26px;
 }
