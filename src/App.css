@@ -4,7 +4,7 @@
 }
 
 #root{
-  background-color: #b3a4d4;
+  background-color: #d0c3ec;
 }
 
 .App {
@@ -32,6 +32,7 @@
   padding-inline: 100%;
   padding-block: 2%;
   padding-bottom: 20px;
+
 }
 
 .footer{
@@ -40,10 +41,29 @@
 
 h1 {
   color: white;
+  font-size: 46px;
 }
 
 h2 {
   color: #333333;
+  font-size: 36px;
+  padding: 15px;
+}
+
+h3 {
+  font-size: 24px;
+  text-decoration: underline;
+  padding: 15px;
+}
+
+h4 {
+  color: #333333;
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+  padding: 15px;
 }
 
 nav {
@@ -81,21 +101,71 @@ nav {
 .header-wrapper {
   width: 100%;
   background-image: url('./assets/header-image.png');
-  background-color: #b3a4d4;
+  background-color: #d0c3ec;
   background-size: auto;
   background-repeat: repeat-x;
 }
 
 .header-text {
-  color: white
+  color: white;
+  padding: 10px
 }
 
 .header-link {
   font-size: 26px;
 }
 
+.header-link:hover {
+  color: #b8f5d8;
+  /* border-bottom: 2px solid #b8f5d8; */
+}
+
 footer{
   background-color: #333333;
   display: flex;
+  justify-content: space-around;
   width: 100%;
+}
+
+.portfolio-pic{
+  border: 5px solid #333333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+h3 {
+  padding: 15px;
+}
+
+a:link {
+  color: #333333;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #333333;
+  text-decoration: none;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-basis: 100%;
+  flex: 1;
 }
