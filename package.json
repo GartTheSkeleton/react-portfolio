@@ -1,7 +1,7 @@
 {
   "name": "challenge-20",
   "version": "0.1.0",
-  "homepage": "https://garttheskeleton.github.io",
+  "homepage": "https://garttheskeleton.github.io/react-portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -22,7 +22,6 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
       "react-app/jest"
     ]
   },
