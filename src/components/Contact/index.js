@@ -4,7 +4,7 @@ import {validateEmail} from '../../utils/helpers';
 function Contact() {
 
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
-    const { name, email, message } = formState;
+    // const { name, email, message } = formState;
     const [errorMessage, setErrorMessage] = useState('');
 
     function handleChange(e) {
@@ -35,7 +35,7 @@ function Contact() {
     }
 
     return (
-        <section>
+        <section className="body-element">
           <h2>Contact me</h2>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div className='column'>

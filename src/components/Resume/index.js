@@ -2,7 +2,7 @@ import React from 'react';
 
 function Resume(){
     return(
-        <div>
+        <div className="body-element">
             <h2>Resume</h2>
                 <a href="../../assets/Garrett-Resume-2020" download>
                 <h3>Click Here To Download</h3>
@@ -20,6 +20,7 @@ function Resume(){
                 <li>Building Databases with SQL</li>
                 <li>Building Databases with MongoDB</li>
             </ul>
+            <p>.</p>
         </div>
         
     )

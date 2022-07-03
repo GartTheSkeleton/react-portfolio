@@ -4,7 +4,7 @@ import profilePic from "../../assets/2022-gart.png";
 function About() {
 
     return(
-        <section id="about">
+        <section className="body-element">
             <h2>
                 Who Am I?
             </h2>

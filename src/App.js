@@ -1,26 +1,32 @@
 import './App.css';
-import About from './components/About';
+import React, {useState} from 'react';
 import Header from './components/Header';
-import Nav from './components/Nav';
 import NavWrapper from './components/HeaderWrapper'
-import Apps from './components/Apps'
-import Resume from './components/Resume'
-import Contact from './components/Contact';
+
+import Body from './components/Body'
 
 import FooterImage from './assets/footer-image.png'
 import FooterImage2 from './assets/footer-image2.png'
 
 function App() {
+  
+  const [currentSection, setCurrentSection] = useState(1);
+
   return (
     <div className="App">
         <Header></Header>
-        <Nav></Nav>
+        <nav>
+            <div className="navbar">
+                <div className="header-link" onClick={() => {setCurrentSection(0)}}>Portfolio</div>
+                <div className="header-link" onClick={() => {setCurrentSection(1)}}>About Me</div>
+                <div className="header-link" onClick={() => {setCurrentSection(2)}}>Resume</div>
+                <div className="header-link" onClick={() => {setCurrentSection(3)}}>Contact</div>
+            </div>
+        </nav>
         <NavWrapper></NavWrapper>
 
-        <Contact></Contact>
-        <Resume></Resume>
-        <Apps></Apps>
-        <About></About>
+        <Body state={currentSection}></Body>
+
 
         <footer>
           <a href="https://www.instagram.com/graphitepages/">
