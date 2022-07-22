@@ -5,6 +5,7 @@ import DndAppPic from '../../assets/dnd-app.png';
 import GalaxyPic from '../../assets/galaxy-app.png';
 import ReadmePic from '../../assets/readme-app.png';
 import EmployeePic from '../../assets/employee-app.png';
+import NetPetsPic from '../../assets/netpets-app.png';
 
 function Apps() {
     return(
@@ -24,11 +25,11 @@ function Apps() {
             </div>
 
             <div className='row gallery'>
-                <a className='column' href='https://github.com/GartTheSkeleton/Weather-Info-App'>
-                    <h3>Weather Info App</h3>
-                    <img src={WeatherInfoPic} alt="" className='portfolio-pic' width={500}></img>
+                <a className='column' href='https://github.com/GartTheSkeleton/NetPets'>
+                    <h3>NetPets</h3>
+                    <img src={NetPetsPic} alt="" className='portfolio-pic' width={500}></img>
                 </a>
-                <a className='column' href='https://github.com/mattparker124/lords-of-the-table'>
+                <a className='column' href='https://boredskeleton.itch.io/galaxy-phage'>
                     <h3>Galaxy Phage</h3>
                     <img src={GalaxyPic} alt="" className='portfolio-pic' width={500}></img>
                 </a>
@@ -36,12 +37,12 @@ function Apps() {
 
             <div className='row gallery'>
                 <a className='column' href='https://github.com/GartTheSkeleton/SQL-Employee-Database'>
-                    <h3>Weather Info App</h3>
+                    <h3>SQL Employee Database</h3>
                     <img src={EmployeePic} alt="" className='portfolio-pic' width={500}></img>
                 </a>
-                <a className='column' href='https://github.com/GartTheSkeleton/Node-Readme-Generator'>
-                    <h3>Galaxy Phage</h3>
-                    <img src={ReadmePic} alt="" className='portfolio-pic' width={500}></img>
+                <a className='column' href='https://github.com/GartTheSkeleton/Weather-Info-App'>
+                    <h3>Weather Info App</h3>
+                    <img src={WeatherInfoPic} alt="" className='portfolio-pic' width={500}></img>
                 </a>
             </div>
             
