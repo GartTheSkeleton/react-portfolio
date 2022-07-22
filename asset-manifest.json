@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.679d0fb3.css",
-    "main.js": "/react-portfolio/static/js/main.d2f50050.js",
+    "main.js": "/react-portfolio/static/js/main.5e2c01d0.js",
     "static/js/787.d57f9dc0.chunk.js": "/react-portfolio/static/js/787.d57f9dc0.chunk.js",
+    "static/media/netpets-app.png": "/react-portfolio/static/media/netpets-app.bed4fa7d02c47958cff4.png",
     "static/media/codewire-app.png": "/react-portfolio/static/media/codewire-app.c416ac6b7e5acefb90d5.png",
     "static/media/employee-app.png": "/react-portfolio/static/media/employee-app.50fe1f607c8957ee7b60.png",
     "static/media/readme-app.png": "/react-portfolio/static/media/readme-app.40f050db85a340f26de3.png",
@@ -12,11 +13,11 @@
     "static/media/galaxy-app.png": "/react-portfolio/static/media/galaxy-app.c7056b88cc88ce177ca1.png",
     "index.html": "/react-portfolio/index.html",
     "main.679d0fb3.css.map": "/react-portfolio/static/css/main.679d0fb3.css.map",
-    "main.d2f50050.js.map": "/react-portfolio/static/js/main.d2f50050.js.map",
+    "main.5e2c01d0.js.map": "/react-portfolio/static/js/main.5e2c01d0.js.map",
     "787.d57f9dc0.chunk.js.map": "/react-portfolio/static/js/787.d57f9dc0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.679d0fb3.css",
-    "static/js/main.d2f50050.js"
+    "static/js/main.5e2c01d0.js"
   ]
 }
