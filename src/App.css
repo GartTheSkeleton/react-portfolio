@@ -3,8 +3,13 @@
   padding: 0;
 }
 
+html, body{
+  height: 100%;
+}
+
 #root{
   background-color: #d0c3ec;
+  height: 100%;
 }
 
 .App {
@@ -15,11 +20,13 @@
   align-items: center;
   justify-content: center;
   flex-wrap: nowrap;
+  background-color: #d0c3ec;
 }
 
 #avatar{
   border: 5px solid #333333;
   box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+  margin-bottom: 20px;
 }
 
 .header{
@@ -32,10 +39,6 @@
   padding-block: 2%;
   padding-bottom: 20px;
 
-}
-
-.footer{
-  background-color: #333333;
 }
 
 h1 {
@@ -125,10 +128,13 @@ nav {
 
 .header-link:hover {
   color: #b8f5d8;
-  /* border-bottom: 2px solid #b8f5d8; */
 }
 
 footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
   background-color: #333333;
   display: flex;
   justify-content: space-around;
@@ -138,6 +144,12 @@ footer{
 .portfolio-pic{
   border: 5px solid #333333;
   box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.container{
+  flex: 1;
+  background-color: #d0c3ec;
+  margin-bottom: 100px;
 }
 
 .body-element {

@@ -43,7 +43,7 @@ function Body(props){
         }
     
     return(
-        <div>
+        <div className='container'>
             {renderContact ? (<Contact></Contact>):(<></>)}
             {renderApps ? (<Apps></Apps>):(<></>)}
             {renderResume ? (<Resume></Resume>):(<></>)}

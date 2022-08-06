@@ -35,7 +35,6 @@ function App() {
           <a href="https://www.instagram.com/graphitepages/">
             <img src={FooterImage2} alt=""></img>
           </a>
-          
         </footer>
     </div>
   );
